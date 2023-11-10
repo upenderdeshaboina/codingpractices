@@ -1,0 +1,33 @@
+###
+POST http://localhost:3000/register/
+Content-Type:application/json
+
+{
+  "username": "upender_deshaboina12",
+  "name": "upender",
+  "password": "upender@123",
+  "gender": "male",
+  "location": "Miryalaguda"
+}
+###
+
+###
+POST http://localhost:3000/login/
+Content-Type:application/json
+
+{
+  "username": "upender_deshaboina12",
+  "password": "upender@123"
+}
+
+###
+PUT http://localhost:3000/change-password/
+Content-Type:application/json
+
+{
+  "username": "upender_deshaboina12",
+  "oldPassword": "upend",
+  "newPassword": "upender@2027"
+}
+
+###
